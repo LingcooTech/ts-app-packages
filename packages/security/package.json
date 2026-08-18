@@ -4,6 +4,21 @@
   "description": "Framework-neutral security primitives for Lingcoo applications",
   "license": "MIT",
   "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "password": [
+        "dist/password.d.ts"
+      ],
+      "jwt": [
+        "dist/jwt.d.ts"
+      ],
+      "auth": [
+        "dist/auth.d.ts"
+      ]
+    }
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -26,7 +41,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
+    "build": "node ../../scripts/clean-dist.mjs dist && tsc -p tsconfig.build.json",
     "typecheck": "tsc -p tsconfig.build.json --noEmit",
     "test": "vitest run"
   },
