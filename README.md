@@ -15,3 +15,5 @@
 ## 当前包
 
 - `@lingcoo/security`：密码哈希、JWT、Bearer Token 和认证主体基础能力。
+- `@lingcoo/crypto`：基于 Node.js `crypto` 的版本化 AES-256-GCM JSON 加解密。
+- `@lingcoo/mailer`：基于 Nodemailer 的框架无关 SMTP 邮件接口。
