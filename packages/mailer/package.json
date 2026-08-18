@@ -1,5 +1,5 @@
 {
-  "name": "@lingcoo/mailer",
+  "name": "@lingcoo-tech/mailer",
   "version": "0.1.0",
   "description": "Provider-neutral mail contract with an SMTP adapter for Lingcoo applications",
   "license": "MIT",

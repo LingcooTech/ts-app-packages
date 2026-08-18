@@ -1,5 +1,5 @@
 {
-  "name": "@lingcoo/crypto",
+  "name": "@lingcoo-tech/crypto",
   "version": "0.1.0",
   "description": "Versioned authenticated encryption primitives for Lingcoo applications",
   "license": "MIT",

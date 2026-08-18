@@ -1,5 +1,5 @@
 {
-  "name": "@lingcoo/http",
+  "name": "@lingcoo-tech/http",
   "version": "0.1.0",
   "description": "Framework-neutral HTTP contracts for Lingcoo applications",
   "license": "MIT",

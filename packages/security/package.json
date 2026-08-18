@@ -1,5 +1,5 @@
 {
-  "name": "@lingcoo/security",
+  "name": "@lingcoo-tech/security",
   "version": "0.1.0",
   "description": "Framework-neutral security primitives for Lingcoo applications",
   "license": "MIT",
