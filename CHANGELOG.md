@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 - 2026-08-19
+
+- Added default package export conditions for Node.js and `tsx` consumers.
+
 ## 0.1.0 - 2026-08-18
 
 - Added `@lingcoo-tech/security` with password hashing, JWT and authentication primitives.

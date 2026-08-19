@@ -1,6 +1,6 @@
 {
   "name": "@lingcoo-tech/security",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Framework-neutral security primitives for Lingcoo applications",
   "license": "MIT",
   "type": "module",
@@ -22,19 +22,23 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
     },
     "./password": {
       "types": "./dist/password.d.ts",
-      "import": "./dist/password.js"
+      "import": "./dist/password.js",
+      "default": "./dist/password.js"
     },
     "./jwt": {
       "types": "./dist/jwt.d.ts",
-      "import": "./dist/jwt.js"
+      "import": "./dist/jwt.js",
+      "default": "./dist/jwt.js"
     },
     "./auth": {
       "types": "./dist/auth.d.ts",
-      "import": "./dist/auth.js"
+      "import": "./dist/auth.js",
+      "default": "./dist/auth.js"
     }
   },
   "files": [

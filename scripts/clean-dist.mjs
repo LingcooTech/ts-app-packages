@@ -1,3 +1,5 @@
+/* global process */
+
 import { rm } from "node:fs/promises";
 import { resolve } from "node:path";
 
